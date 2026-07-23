@@ -1,0 +1,41 @@
+h1{
+    text-align: center;
+    border-color: yellow;
+    color: white;
+    padding: auto;
+    background-color: black;
+}
+
+iframe {
+    width: 490px;
+    height: 300px;
+    border: 4px solid blue;
+    border-radius: 10px;
+    transition: 0.3s;
+     transition: transform 0.3s ease;
+}
+
+iframe:hover {
+    border-color: red;
+    transform: scale(1.05);
+}
+
+
+.youtube {
+    display: flex;
+    justify-content: center;   
+    align-items: center;       
+    gap: 10px;                 
+}
+.youtube img{
+    width: 60px;
+    height: 60px;
+    margin-top: 8px;
+    margin-left: 5px;
+}
+.youtube h1{
+   font-family: Verdana, sans-serif;
+    background-color: white;
+    color: black;
+    font-size: 40px;
+}
