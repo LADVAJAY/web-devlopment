@@ -1,27 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS selectors</title>
     <style>
         /* Element selector  */
-        div{
+        div {
             background-color: yellow;
         }
+
         /* Class Selector */
-        .red{
+        .red {
             background-color: red;
         }
+
+        #green {
+            background-color: green;
+        }
+        /* child selector */
+        div >p{
+            background-color: bisque;
+        }
+        /* Pseudo selector */
+        a:active{
+            background-color: black;
+        }
+        a:hover{
+            background-color:rgb(161, 134, 114);
+        }
+
     </style>
 </head>
+
 <body>
     <div>
-        i am red         
+        <article>
+            <p>
+                hello my name is jay
+            </p>
+        </article>
+        i am red
     </div>
     <div class="red">
-        i am red         
+        <p>hello i am jay </p>
+        i am red
     </div>
+    <div id="green">
+        i am green
+    </div>
+    <a href="https://www.google.com">go to google</a>
 
 </body>
+
 </html>
