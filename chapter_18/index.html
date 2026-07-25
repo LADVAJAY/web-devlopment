@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css specificity&cascade</title>
+    <style>
+        h1{
+            color:darkcyan;
+        }
+        .yello{
+            color:yellow;
+        }
+        .cred{
+            color:red;
+        }
+        [data-x=a]{
+            color:rgb(52, 178, 213);
+        }
+        .cpurpule{
+            color:purple;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1 class="yello cred cpurpule" data-x="a">i am jay</h1>
+    </div>
+</body>
+</html> 
