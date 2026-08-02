@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --color: rgb(245, 248, 175);
+    --secondary-color: rgb(147, 71, 71);
+    --defpad: 34px;
+}
+.nav{
+    background-color: var(--color);
+    /* color: white; */
+    /* display:flex; */
+}
+ul{
+    display:flex;
+}
+ul li{
+    list-style-type:none;
+    padding:var(--defpad);
+}
+ul li:first-child{
+    --color:rgb(223, 106, 106);
+    background-color:var(--color);
+}
+.container{
+    background-color: var(--secondary-color);
+}
